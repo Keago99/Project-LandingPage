@@ -2,7 +2,29 @@
     background-color: #1F2937;
 }
 
-body{
-    font-size: 45px;
-    color: red;
+.Navbar{
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+}
+
+.leftNav{
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.rightNav{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+li{
+    margin-top: 0px;
+    display: inline;
+    margin-right: 24px;
 }
