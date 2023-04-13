@@ -8,6 +8,7 @@
     justify-content: space-between;
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 50px;
     align-items: center;
 }
 
@@ -18,6 +19,24 @@
 }
 
 .rightNav{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.restHero{
+    justify-content: space-between;
+}
+
+.heroHeading{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin-left: 200px;
+    word-wrap: normal;
+    width: 300px;
+}
+
+.smallP{
     font-size: 18px;
     color: #E5E7EB;
 }
