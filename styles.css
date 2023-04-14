@@ -1,5 +1,9 @@
+
+
 body{
     font-family: Helvetica;
+    margin: 0px;
+    padding: 0px;
 }
 
 .hero, footer{
@@ -10,9 +14,9 @@ body{
     display: flex;
     font-size: 24px;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 80px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 100px;
     align-items: center;
 }
 
@@ -28,14 +32,15 @@ body{
 }
 
 .restHero{
-    justify-content: space-between;
+    height: 300px;
+    display: flex;
 }
 
 .heroHeading{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    margin-left: 200px;
+    margin-left: 230px;
     word-wrap: normal;
     width: 350px;
 }
@@ -44,21 +49,35 @@ body{
     font-size: 18px;
     color: #E5E7EB;
     word-wrap: normal;
-    margin-left: 200px;
+    margin-left: 230px;
     width: 500px;
 }
 
 .heroButton{
-    margin-left: 203px;
+    margin-left: 233px;
 }
 
 button{
-    border-radius: 15px;
+    border: 0px;
+    border-radius: 10px;
     background-color: #3882F6;
     color: #F9FAF8;
     margin-top: 10px;
-    width: 100px;
+    width: 130px;
     height: 40px;
+    font-weight: bolder;
+    font-size: 2px;
+}
+
+.leftHero{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin-right: 300px;
+}
+
+.rightHero{
+    display: flex;
 }
 
 
@@ -66,4 +85,13 @@ li{
     margin-top: 0px;
     display: inline;
     margin-right: 24px;
+}
+
+img{
+    color:white;
+    background-color: white;
+    height: 220px;
+    width: 520px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
