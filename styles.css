@@ -105,5 +105,24 @@ img{
     align-items: center;
     justify-content: center;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.picBoxes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 200px;
+
+}
+
+.picBox{
+    
+    border-radius: 15px;
+    border:#3882F6;
+    border-style: solid;
+    border-width: 4px;
+    width: 160px;
+    height: 160px;
 }
