@@ -113,16 +113,28 @@ img{
     justify-content: space-between;
     margin-left: 350px;
     margin-right: 350px;
-    margin-bottom: 200px;
-
+    margin-bottom: 10px;
 }
 
 .picBox{
-    
     border-radius: 15px;
     border:#3882F6;
     border-style: solid;
     border-width: 4px;
     width: 160px;
     height: 160px;
+}
+
+.wordBoxes{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 200px;
+}
+
+.wordBox{
+    text-align: center;
+    width: 170px;
+    font-size: 14px;
 }
