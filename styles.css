@@ -130,11 +130,31 @@ img{
     justify-content: space-between;
     margin-left: 350px;
     margin-right: 350px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .wordBox{
     text-align: center;
     width: 170px;
     font-size: 14px;
+}
+
+.qouteSection{
+    height: 400px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.qoute{
+    display: flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    width: 700px;
+    height: 300px;
+    padding-top: 100px;
+    margin-left: 400px;
+    margin-right: 350px;
 }
