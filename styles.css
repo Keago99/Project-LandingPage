@@ -166,3 +166,45 @@ img{
     font-weight: bolder;
     text-align: right;
 }
+
+.final{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.callToAction{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 100px;
+    width: 1100px;
+    height: 160px;
+    background-color: #3882F6;
+}
+
+
+.callParagraph{
+    font-size: x-large;
+    font-weight: bolder;
+    display: flex;
+    color: #E5E7EB;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    justify-content: left;
+    padding-left: 170px;
+}
+
+
+.callText{
+    display: flex;
+    justify-content: left;
+    padding-left: 170px;
+    padding-top: 0px;
+    color: #E5E7EB;
+}
+
+
+
