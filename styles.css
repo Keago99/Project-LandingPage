@@ -176,7 +176,6 @@ img{
 
 .callToAction{
     display: flex;
-    flex-direction: column;
     border-radius: 10px;
     margin-top: 100px;
     width: 1100px;
@@ -196,14 +195,28 @@ img{
     justify-content: left;
     padding-left: 170px;
 }
-
-
+.callLeft{
+    display: flex;
+    flex-direction: column;
+}
 .callText{
     display: flex;
     justify-content: left;
     padding-left: 170px;
     padding-top: 0px;
     color: #E5E7EB;
+}
+
+.callButton{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 170px;
+}
+
+.callingButton{
+    border: 2px solid;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
 }
 
 
